@@ -21,7 +21,7 @@ const DobStep = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#E2625A] p-4">
+    <div className="min-h-screen flex items-center justify-center bg-pink-100 p-4">
       <Card className="w-full max-w-md">
         <CardContent className="space-y-6">
           <Typography variant="h5" className="text-center font-bold">

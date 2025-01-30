@@ -41,7 +41,7 @@ const Matches = () => {
   };
 
   return (
-    <Box sx={{ p: 3, backgroundColor: '#FFEEEC', minHeight: '100vh' }}>
+    <Box sx={{ p: 3, backgroundColor: '#FCE7F4', minHeight: '100vh' }}>
       {/* Search and Filter Section */}
       <Card sx={{ mb: 3, p: 2 }}>
         <Grid container spacing={2} alignItems="center">

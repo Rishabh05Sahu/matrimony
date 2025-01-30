@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
-import backgroundImage from "../assets/background.webp";
+import background from "../assets/background.jpeg";
 import Button from "@mui/material/Button";
 import Testmonial from "../Components/Testmonial";
 import { useNavigate } from "react-router-dom";
@@ -17,17 +17,18 @@ const HeroPart = () => {
           left: 0,
           width: "100%",
           height: "100%",
-          backgroundImage: `url(${backgroundImage})`,
+          backgroundImage: `url(${background})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          filter: "brightness(0.6) blur(3px)",
+          filter: "brightness(0.7) blur(1px)",
           zIndex: -1,
+          
         }}
       />
 
       <Navbar />
       <div className="text-white w-full  flex-col text-center mt-[10vh]  lg:mt-[20vh] mx-auto px-4 md:px-0 max-sm:mt-[30vh]">
-        <h1 className="font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4">
+        <h1 className="font-extrabold text-3xl font-charm  sm:text-4xl md:text-5xl lg:text-6xl mb-4">
           Looking for love
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl font-bold text-orange mb-6">

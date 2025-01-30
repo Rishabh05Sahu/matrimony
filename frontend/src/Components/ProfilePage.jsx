@@ -56,7 +56,7 @@ const ProfilePage = () => {
 
   return (
     <div> 
-      <Box sx={{ minHeight: '100vh', bgcolor: '#FFEEEC', p: 3 }}>
+      <Box sx={{ minHeight: '100vh', bgcolor: '#FCE7F4', p: 3 }}>
         <Box sx={{ maxWidth: '900px', mx: 'auto' }}>
           <Card elevation={3}>
             <CardHeader

@@ -1,4 +1,7 @@
-
+import m1 from "../assets/m1.jpg"
+import m2 from "../assets/m2.jpg"
+import m3 from "../assets/m3.jpg"
+import m4 from "../assets/m4.jpg"
 
 const matches = [
     {
@@ -10,7 +13,7 @@ const matches = [
       education: "Master's in Computer Science",
       religion: 'Hindu',
       about: 'Love traveling and exploring new places',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo62U5WD2troYSaYMCCHk6vrSbaujCT7f14Q&s',
+      image: m1,
       compatibility: '85%'
     },
     {
@@ -22,7 +25,7 @@ const matches = [
       education: 'MD in Medicine',
       religion: 'Christian',
       about: 'Passionate about healthcare and helping others',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6b4EOx7ysCVbhIujYl8R65V3FPa_GChmzUA&s',
+      image: m2,
       compatibility: '78%'
     },
     {
@@ -34,7 +37,7 @@ const matches = [
       education: 'MBA in Marketing',
       religion: 'Muslim',
       about: 'Creative soul who loves art and music',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOj2RNxawONgN53cgsFISp4ZrY4gNUmgTsww&s',
+      image: m3,
       compatibility: '92%'
     },
     {
@@ -46,7 +49,7 @@ const matches = [
       education: 'BFA in Design',
       religion: 'Buddhist',
       about: 'Design enthusiast and coffee lover',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZixZs3xLCXGIPqMNBbAv3SmWudZppMhYDOg&s',
+      image: m4,
       compatibility: '88%'
     },
   ];

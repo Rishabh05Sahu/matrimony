@@ -9,10 +9,11 @@ const Home = () => {
     <div>
       <HeroPart />
 
-      <div className="flex flex-col md:flex-row gap-6 p-4 sm:p-6 lg:p-10 bg-[#D63B32] items-center">
+      <div className="flex flex-col md:flex-row gap-12 p-4 sm:p-6 lg:p-10 bg-pink-100 items-center">
         {successStories.map((story) => (
           <Testimonial
             key={story.id}
+            image={story.image}
             title={story.title}
             description={story.description}
           />
