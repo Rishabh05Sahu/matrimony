@@ -22,7 +22,6 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/Rishabh05Sahu/matrimony.git
    cd matrimony
-   cd frontend
    ```
 
 2. **Install the dependencies:**
