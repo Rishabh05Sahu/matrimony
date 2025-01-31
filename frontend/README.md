@@ -9,7 +9,7 @@ The project is built with **React** for the frontend and utilizes **MaterialUI**
 ### **Deployed Project**
 
 You can view the deployed project at:  
-[SaptJanm Matrimony (Deployed)](https://codeforces-dashboard-chi.vercel.app)
+[SaptJanm Matrimony (Deployed)](https://matrimony-black.vercel.app/)
 
 ---
 
@@ -21,7 +21,8 @@ To set up the project locally, follow these steps:
 
    ```bash
    git clone https://github.com/Rishabh05Sahu/matrimony.git
-   cd codeforces-dashboard
+   cd matrimony
+   cd frontend
    ```
 
 2. **Install the dependencies:**
