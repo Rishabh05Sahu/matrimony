@@ -1,8 +1,58 @@
-# React + Vite
+# **SaptJanm Matrimony**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **Project Overview**
 
-Currently, two official plugins are available:
+The **SaptJanm Matrimony** is a web application, assignment submission for Frontend Developer Internship.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project is built with **React** for the frontend and utilizes **MaterialUI** and **Tailwind CSS** for a professional and modern design.
+
+### **Deployed Project**
+
+You can view the deployed project at:  
+[SaptJanm Matrimony (Deployed)](https://codeforces-dashboard-chi.vercel.app)
+
+---
+
+## **Project Setup**
+
+To set up the project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Rishabh05Sahu/matrimony.git
+   cd codeforces-dashboard
+   ```
+
+2. **Install the dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+   The application will run on `http://localhost:5173` by default.
+
+---
+
+## **Project Features**
+
+### **1️⃣ User Authentication & Profiles**  
+- 🔹 **User Registration & Login** (via Email, or Social Login)  
+- 🔹 **Profile Creation & Editing** (Name, Age, Gender, Bio, Preferences)  
+- 🔹 **Profile Picture Upload**  
+
+### **2️⃣ Matchmaking & Preferences**  
+- 🔹 **Search & Filter Matches** (Based on Location )  
+- 🔹 **AI-Based Match Recommendations**  
+
+---
+
+## **Technology Stack**
+
+- **Frontend:** React, Material UI, Tailwind CSS
