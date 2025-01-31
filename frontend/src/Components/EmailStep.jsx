@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import { useNavigate } from 'react-router-dom';
 import { TextField, Button, Card, CardContent, Typography } from '@mui/material';
+import logo from "../assets/logo.png"
 
 const EmailStep = () => {
   const navigate = useNavigate();
@@ -21,10 +22,11 @@ const EmailStep = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-pink-100 p-4">
+    <div className="min-h-screen flex flex-col gap-y-16 items-center justify-center bg-pink-100 p-4">
+      <img src={logo} alt="" className="w-[100px]" />
       <Card className="w-full max-w-md">
         <CardContent className="space-y-6">
-          <Typography variant="h5" className="text-center font-bold">
+          <Typography variant="h5" className="text-center font-bold pb-8">
             What's your email?
           </Typography>
 

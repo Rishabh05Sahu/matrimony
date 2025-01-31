@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { useNavigate } from "react-router-dom";
+import logo from "../assets/logo.png"
 
 const Login = () => {
   const navigate = useNavigate();
@@ -36,7 +37,8 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-pink-100">
+    <div className="min-h-screen flex flex-col gap-y-12 items-center justify-center bg-pink-100">
+      <img src={logo} alt="" className="w-[100px]" />
       <div className="bg-white shadow-lg rounded-lg p-8 w-96">
         <h2 className="text-2xl font-bold text-center text-gray-900 mb-6">
           Login

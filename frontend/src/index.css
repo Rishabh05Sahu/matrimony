@@ -1,2 +1,8 @@
 @import "tailwindcss";
 
+@theme {
+    --font-charm: "Charm", "sans-serif";
+    --font-cookie: "Cookie", "serif";
+    --font-playball: "Playball", "serif"
+    --font-firacode: "Fira Code", "serif";
+}

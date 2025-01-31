@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Button, Card, CardContent, Typography } from '@mui/material';
 import { PhotoCamera } from '@mui/icons-material';
 import  upload  from '../assets/upload_area.svg';
+import logo from "../assets/logo.png"
 
 const PhotoStep = () => {
   const navigate = useNavigate();
@@ -27,10 +28,11 @@ const PhotoStep = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-pink-100 p-4">
+    <div className="min-h-screen flex flex-col gap-y-12 items-center justify-center bg-pink-100 p-4">
+      <img src={logo} alt="" className="w-[100px]" />
       <Card className="w-full max-w-md">
         <CardContent className="space-y-6">
-          <Typography variant="h5" className="text-center font-bold">
+          <Typography variant="h5" className="text-center font-bold pb-8">
             Add a profile picture
           </Typography>
 

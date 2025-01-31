@@ -12,7 +12,7 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
 import FormControl from '@mui/material/FormControl';
-import profile from "../assets/person.png";
+import profile from "../assets/men.jpg";
 
 const ProfilePage = () => {
   const [isEditing, setIsEditing] = useState(false);

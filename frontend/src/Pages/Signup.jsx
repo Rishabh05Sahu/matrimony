@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { useNavigate } from "react-router-dom";
+import logo from "../assets/logo.png"
 
 
 
@@ -39,8 +40,9 @@ const signupSchema = yup.object().shape({
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#E2625A]">
-      <div className="bg-white shadow-lg rounded-lg p-6 w-96">
+    <div className="min-h-screen flex flex-col gap-y-4 items-center justify-center bg-pink-100">
+      <img src={logo} alt="" className="w-[100px]" />
+      <div className="bg-white shadow-lg rounded-lg p-8 w-1/3 max-sm:w-96">
         <h2 className="text-2xl font-bold text-center mb-4">Create Account</h2>
 
         {/* Signup Form */}
